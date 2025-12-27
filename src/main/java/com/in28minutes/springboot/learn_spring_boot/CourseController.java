@@ -12,7 +12,8 @@ public class CourseController {
     public List<Course> retrieveAllCourses(){
         return Arrays.asList(
                 new Course(1, "Learn AWS", "In 20minutes"),
-                new Course(2, "Learn SpringBoot", "In 20minutes")
+                new Course(2, "Learn SpringBoot", "In 20minutes"),
+                new Course(3,"Learn Java","In 20minutes")
         );
     }
 }
